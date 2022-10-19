@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@latest/css/pico.min.css">
+</script>
+</head>
+<body>
+  <header>
+    <h1>Búsqueda de información de IP</h1>
+  </header>
+  <main class="container">
+    <form id="form">
+      <label>IP 
+        <input required id="input" type="text" placeholder="Introduce aquí la Ip"> <small>Por ejemplo: 201.151.236.178</small>
+      </label>
+      <button type="submit" id="submit">Buscar información de esta IP
+      </button>
+    </form>
+    
+    <div class="div">
+      <table id="table">
+        <tr>
+          <th id="ip"><strong>IP</strong></th>
+          <th id="lat"><strong>Latitud</strong></th>
+          <th id="long"><strong>Longitud</strong></th>
+          <th id="isp"><strong>ISP</strong></th>
+        </tr>
+      </table>
+    </div>
+    <div class="div">
+      <pre id="results" style="background-color: #001f3f"></pre>
+    </div>
+    <div id="map"></div>
+    
+  </main>
+  <footer>
+    <p>©Copyright 2050 de nadie. Todos los derechos revertidos.</p>
+  </footer>
+  </script>
+  <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyAPDrBOdymOdKjQf4e0N-b8Qv-TlCa4kqY&sensor=true"></script>
+  </script>
+  <script type="module" src="./script.js"></script>
+  </body>
+</html>
