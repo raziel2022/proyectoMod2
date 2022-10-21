@@ -59,30 +59,6 @@ async function geoIP(value){//funcion asincrona que recibe como parameto la ip e
   }
 }
 
-/*
-$form.addEventListener('submit', async function(event) {
-  event.preventDefault()
-  const {value}=$input;
-  console.log(value);
-  if(!value)return 
-
-  $submit.setAttribute('disabled', '') 
-  $submit.setAttribute('aria-busy', 'true')
-  
-  const ipInfo =  await fetchIpInfo(value);
-  console.log(ipInfo);
- 
-  if(ipInfo){
-
-    $submit.setAttribute('aria-busy', 'false');
-    $submit.removeAttribute('disabled');
-    $results.innerText =JSON.stringify(ipInfo, null, 2);
-  
-    addTable(ipInfo.ip,ipInfo.latitude,ipInfo.longitude,ipInfo.isp);
-  }      
-})
-
-*/
 var list = document.getElementById('table');
 let tablaContent = ``;
 
