@@ -1,10 +1,16 @@
 table, th, td {
-    border: 1px solid white;
+    table-layout: fixed;
+    width: 100%;
+    border: 1px;
     border-collapse: collapse;
   }
-  th, td {
-    background-color: #96D4D4;
-  }table {
+  th, td, tr {
+    background-color: #cceeee;
+  }
+
+
+  
+  table {
     border-collapse: collapse;
   }
 
@@ -17,5 +23,20 @@ header, footer{
     text-align: center;
 }
 
+.button2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.5),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.navHeader, li:hover{
+  background-color: #0c231e;
+  font-size: 25px;
+}
+.divResult{
+  display: block;
+}
+
+#link{
+  color: white
+}
 
  
